@@ -18,8 +18,8 @@ public class KeyPressesPage {
         driver.findElement(inputField).sendKeys(text);
     }
 
-    public void enterPi(){
-        enterText(Keys.chord(Keys.ALT, "p") + "=3.14");
+    public void enterRandomLetter(){
+        enterText(Keys.chord(Keys.ALT, "p"));
     }
 
     public String getResult(){

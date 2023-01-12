@@ -14,9 +14,9 @@ public class AlertsPage {
     public void triggerAlert(){
         driver.findElement(triggerAlertButton).click();
     }
-    public void triggerConfirm(){
-        driver.findElement(triggerConfirmButton).click();
-    }
+   public void triggerConfirm(){
+       driver.findElement(triggerConfirmButton).click();
+   }
     public void alert_clickToAccept(){
         driver.switchTo().alert().accept();
     }

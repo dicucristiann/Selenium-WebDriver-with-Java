@@ -16,12 +16,9 @@ public class KeysTests extends BaseTests {
     }
 
     @Test
-    public void testPi(){
+    public void testRandom(){
         var keyPage = homePage.clickKeyPresses();
-        keyPage.enterPi();
-        /*
-            NOTE: we didn't finish this test in the video.
-            We debugged to watch it enter the pi key
-         */
+        keyPage.enterRandomLetter();
+
     }
 }
